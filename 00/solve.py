@@ -1,16 +1,19 @@
-def solve1(text):
+def solve1(lines):
     pass
 
-def solve2(text):
+def solve2(lines):
     pass
 
 if __name__ == '__main__':
-    test1 = open("test1", "r").read().split("\n")
-    test2 = open("test2", "r").read().split("\n")
-    input = open("input", "r").read().split("\n")
+    test1 = open("test1", "r").read().strip().split("\n")
+    test2 = open("test2", "r").read().strip().split("\n")
+    input = open("input", "r").read().strip().split("\n")
 
-    test1_solution = 0
-    test2_solution = 0
+    if len(test2)  == 0:
+        test2 = test1
+
+    test1_solution = 2
+    test2_solution = 4
 
     test1_result = solve1(test1)
     test2_result = solve2(test2)
