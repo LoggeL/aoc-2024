@@ -12,8 +12,8 @@ if __name__ == '__main__':
     if len(test2)  == 0:
         test2 = test1
 
-    test1_solution = 2
-    test2_solution = 4
+    test1_solution = 0
+    test2_solution = 0
 
     test1_result = solve1(test1)
     test2_result = solve2(test2)
