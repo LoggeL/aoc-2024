@@ -72,7 +72,7 @@ if __name__ == "__main__":
     test2 = open("test2", "r").read().strip().split("\n")
     input = open("input", "r").read().strip().split("\n")
 
-    if len(test2) == 0:
+    if test2 == ['']:
         test2 = test1
 
     test1_solution = 18
