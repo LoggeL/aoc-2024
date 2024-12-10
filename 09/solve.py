@@ -169,7 +169,7 @@ if __name__ == "__main__":
         print("Test 1 failed!")
         exit(1)
 
-    # print("Solution 1: " + str(solve1(input)))
+    print("Solution 1: " + str(solve1(input)))
 
     print("Test 2: " + str(test2_result))
     if test2_solution != test2_result:
